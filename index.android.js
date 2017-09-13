@@ -10,5 +10,7 @@ import {
 } from 'react-native';
 import FadeIn from "./src/app/animate/FadeIn";
 import App from "./src/app/App";
+import DemoInterpolate from "./src/app/animate/DemoInterpolate";
+import TestMeasure from "./src/app/TestMeasure";
 
-AppRegistry.registerComponent('AnimationDemo', () => App);
+AppRegistry.registerComponent('AnimationDemo', () => TestMeasure);
